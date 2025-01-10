@@ -1,0 +1,76 @@
+.containerTittle {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0px 0px 28px white;
+    
+}
+
+.separacionYamal {
+    display: flex;
+    justify-content: space-around;
+    -webkit-text-stroke: 0.3px rgb(48, 48, 48);
+
+    .lamine{
+        color: rgb(172, 19, 19);
+    }
+
+    .yamal{
+        color: rgb(15, 13, 156);
+    }
+}
+
+.containerTittle .lamineYamalIMG {
+    width: 50%;
+    margin-right: 9rem;
+}
+
+.dorsalYamal{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+    h2{
+        margin-top: 0;
+        text-shadow: 0px 0px 28px white;
+    }
+}
+
+.tresColumnas {
+    margin-top: 5rem;
+}
+
+/* Referencia: https://www.delftstack.com/es/howto/html/html-3-column-layout/ */
+.row {
+    color: white;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.row .column {
+    padding: 10px;
+    text-align: center;
+}
+
+.highlights {
+    margin-top: 2rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    h2{
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Ocultar scrollbar: https://es.stackoverflow.com/questions/56179/como-ocultar-el-scrollbar */
+
+::-webkit-scrollbar{
+    display: none;
+}
